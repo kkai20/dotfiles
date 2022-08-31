@@ -1,6 +1,6 @@
 [user]
 	email = kaneko.umi1020@gmail.com
-	name = kkai20
+	name = kkai
 
 [includeIf "gitdir:~/42cursus/"]
 	path = ~/.gitconfig_42
