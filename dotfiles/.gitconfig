@@ -1,0 +1,11 @@
+[user]
+	email = kaneko.umi1020@gmail.com
+	name = kkai20
+
+[includeIf "gitdir:~/42cursus/"]
+	path = ~/.gitconfig_42
+
+[includeIf "gitdir:~/Mara/"]
+	path = ~/.gitconfig_private
+[credential]
+	helper = /mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe
